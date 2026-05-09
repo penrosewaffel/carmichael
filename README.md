@@ -12,18 +12,21 @@ Carmichael numbers act as "Sylow lenses" — their multiplicative groups decompo
 - Prediction of previously unknown Carmichael triples
 - Resolution of the Hadamard-668 problem
 
+The script "run_all.sh" runs all the computations in order. Detailed explanation will follow.
+
+
 ## Repository Structure
 
 - `waypoints/` — The discovery journey, step by step
 - `src/` — Core framework code
-- `data/` — Carmichael dictionaries, lens forest data
-- `paper/` — Formal writeup
-- `dialogue/` — The conversation that started it all
+#- `data/` — Carmichael dictionaries, lens forest data
+#- `paper/` — Formal writeup
+#- `dialogue/` — The conversation that started it all
 
 ## Quick Start
 
-```python
-from src.propus import PropusConstruction
+#```python
+#from src.propus import PropusConstruction
 
 # this code has yet to be published
 # Build Propus-92 (11-lens from 7^1 generator)

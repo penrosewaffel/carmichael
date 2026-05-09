@@ -23,18 +23,6 @@ The script "run_all.sh" runs all the computations in order. Detailed explanation
 #- `paper/` — Formal writeup
 #- `dialogue/` — The conversation that started it all
 
-## Quick Start
-
-#```python
-#from src.propus import PropusConstruction
-
-# this code has yet to be published
-# Build Propus-92 (11-lens from 7^1 generator)
-#p92 = PropusConstruction(lens_prime=11, carriers=[23, 199, 353])
-#codes = p92.build_binary_codes()
-#probe = p92.probe_at_stride(22)  # Perfect decoupling!
-
-
 
 
 

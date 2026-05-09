@@ -36,7 +36,7 @@ print()
 # LOAD CANDIDATE
 # ============================================================================
 
-candidate = np.load('resources/H668_fair.npy').astype(np.float64)
+candidate = np.load('resources/H668_near.npy').astype(np.float64)
 n = candidate.shape[0]
 
 print(f"Candidate shape: {candidate.shape}")
